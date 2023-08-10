@@ -18,6 +18,19 @@ h1, h2, h3, h4, h5, h6
 h1 {
     font-size: 72px;
 }
+.content
+{
+    padding: 160px 20px;
+
+}
+.about-hero h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+.about-hero h2 {
+    font-size: 30px;
+    font-size: var(--default-font-family);
+}
 h2 {
     font-size:64px;
 }
@@ -61,14 +74,17 @@ p {
     padding: 12px 20px;
 }
 @media(max-width: 900px) 
-h1 { font-size:60px; }
+{h1 { font-size:60px; }
 h2 {
     font-size: 40px;
 }
-{.project-one { padding:0;
+.project-one { padding:0;
 text-align: center;}}
 
-img {
-    margin: 20px 20px;
-    padding: 20px;
+
+.rounded {
+    border-radius: 60px;
+    max-width: 500px;
+    margin: 70px;
+    
 }
