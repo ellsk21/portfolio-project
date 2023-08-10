@@ -1,9 +1,9 @@
 
 :root {
-    --branding-color:rgb(232, 94, 232);
+    --branding-color:#61c5e0;
     --heading-font-family: 'Playfair Display', serif;
     --default-font-family: 'Poppins', sans-serif;
-    --secondary-color:rgb(239, 210, 239);
+    --secondary-color:#eefeac;
 }
 body 
 {
@@ -98,4 +98,32 @@ text-align: center;}}
     max-width: 500px;
     margin: 70px;
     
+}
+.logo
+{
+    max-width:40px;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 20px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    padding: 20px 0;
+
+}
+nav a {
+   text-decoration: none;
+   color:black;
+   transition: all 150ms ease-in-out;
+}
+nav a:hover,
+nav li.active a 
+{
+color: var(--branding-color);
 }
