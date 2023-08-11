@@ -19,7 +19,7 @@ h1 {
     font-size: 72px;
 }
 h4 {
-    font-size: 48px;;
+    font-size: 48px;
 }
 .content
 {
@@ -75,6 +75,9 @@ h2 {
     line-height: 27px;
     padding: 12px 20px;
 }
+.btn-branding-contact-me {
+    padding-right: 30px;
+}
 p {
     font-weight: normal;
     font-size: 16px;
@@ -104,7 +107,7 @@ text-align: center;}
 
 
 .rounded {
-    max-width: 500px;
+    max-width: 300px;
     margin: 70px;
     
 }
